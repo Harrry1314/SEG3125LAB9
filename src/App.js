@@ -10,6 +10,7 @@ import Laptop from './components/Laptop';
 import Headphone from './components/Headphone';
 import Router from './components/Router';
 import Cart from './components/Cart';
+import AboutF from './components/AboutF';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path='/Headphone' component={Headphone} />
         <Route path='/Router' component={Router} />
         <Route path='/Cart' component={Cart} />
+        <Route path='/AboutF' component={AboutF} />
       </div>
     </BrowserRouter>
   );

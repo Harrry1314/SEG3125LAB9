@@ -12,6 +12,7 @@ const Navbar=()=>{
                     <li><NavLink to="/about">About</NavLink></li>
                     <li><NavLink to="/contact">Contact</NavLink></li>
                     <li><NavLink to="/cart">Cart</NavLink></li>
+                    <li><NavLink to="/aboutf">Français</NavLink></li>
                 </ul>
             </div>
         </nav>
